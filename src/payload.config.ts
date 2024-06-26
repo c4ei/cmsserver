@@ -147,7 +147,7 @@ export default buildConfig({
       collections: ['case-studies', 'pages', 'posts'],
     }),
   ],
-  cors: [process.env.PAYLOAD_PUBLIC_APP_URL || '', 'https://payloadcms.com'].filter(Boolean),
+  cors: [process.env.PAYLOAD_PUBLIC_APP_URL || '', 'https://cat.c4ei.net'].filter(Boolean),
   admin: {
     bundler: webpackBundler(),
     webpack: config => ({

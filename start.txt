@@ -1,0 +1,7 @@
+start.txt
+
+admin
+idl.c4ei.net
+
+yarn build
+yarn serve

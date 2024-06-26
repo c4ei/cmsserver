@@ -18,6 +18,7 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "jsx": "react",
+    "sourceMap": true  // 디버깅을 위해 추가
   },
   "include": [
     "src",
@@ -25,12 +26,12 @@
     "src/scripts/migrateVersions.ts",
     "src/scripts/fetch-discord.ts",
     "src/scripts/fetch-github.ts",
-    "src/scripts/syncDocs.ts",
+    "src/scripts/syncDocs.ts"
   ],
   "exclude": [
     "node_modules",
     "dist",
-    "build",
+    "build"
   ],
   "ts-node": {
     "transpileOnly": true
